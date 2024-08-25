@@ -23,7 +23,7 @@ yarn-error.log*
 # Vercel
 .vercel
 # Ignore Next.js build output
-.next/
+# .next/
 # Ignore Next.js cache, logs, and temporary files
 .next/cache/
 .next/cache/**/*

@@ -1,0 +1,4 @@
+{
+  "/[lng]/(mainLayout)/[...not-found]/page": "app/[lng]/(mainLayout)/[...not-found]/page.js",
+  "/[lng]/(mainLayout)/theme/paris/page": "app/[lng]/(mainLayout)/theme/paris/page.js"
+}
