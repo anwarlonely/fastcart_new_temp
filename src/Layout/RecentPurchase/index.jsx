@@ -18,24 +18,24 @@ const RecentPurchase = () => {
   const [popupEnable, setPopupEnable] = useState(true);
   const [product, setProduct] = useState(null);
 
-  useEffect(() => {
-    let intervalId;
+  // useEffect(() => {
+  //   let intervalId;
 
-    if (popupEnable) {
-      intervalId = setInterval(() => {
-        setShow((prev) => !prev);
-        setMin(Math.floor(Math.random() * 60) + 1);
-        randomlySelectProduct();
-        setTimeout(() => {
-          setShow((prev) => !prev);
-        }, 5000);
-      }, 20000);
-    }
+  //   if (popupEnable) {
+  //     intervalId = setInterval(() => {
+  //       setShow((prev) => !prev);
+  //       setMin(Math.floor(Math.random() * 60) + 1);
+  //       randomlySelectProduct();
+  //       setTimeout(() => {
+  //         setShow((prev) => !prev);
+  //       }, 5000);
+  //     }, 20000);
+  //   }
 
-    return () => {
-      clearInterval(intervalId); // Cleanup the interval on unmount.
-    };
-  }, [popupEnable]);
+  //   return () => {
+  //     clearInterval(intervalId); // Cleanup the interval on unmount.
+  //   };
+  // }, [popupEnable]);
 
   useEffect(() => {
     randomlySelectProduct();

@@ -20,6 +20,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[lng]/(mainLayout)/[...not-found]/page.js"
+    ],
+    "/[lng]/(mainLayout)/auth/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(mainLayout)/auth/login/page.js"
+    ],
+    "/[lng]/(mainLayout)/collections/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[lng]/(mainLayout)/collections/page.js"
     ]
   }
 }
