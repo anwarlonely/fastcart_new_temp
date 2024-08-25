@@ -13,10 +13,10 @@ const FooterSupportNumber = () => {
       {themeOption?.footer?.support_number && (
         <li>
           <div className='footer-number'>
-            <FiPhone />
+            <FiPhone style={{color:'white'}}/>
             <div className='contact-number'>
-              <h6 className='text-content'>{t("Hotline")}  24/7 :</h6>
-              <h5>{themeOption?.footer?.support_number}</h5>
+              <h6 className='text-content' style={{color:'white'}}>{t("Hotline")}  24/7 :</h6>
+              <h5 style={{color:'white'}}>{themeOption?.footer?.support_number}</h5>
             </div>
           </div>
         </li>

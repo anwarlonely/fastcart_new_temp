@@ -14,33 +14,33 @@ const FooterSocial = () => {
     <>
       {isFooterSocial ? (
         <div className='social-link'>
-          <h6 className='text-content'>{t('Stayconnected')} :</h6>
+          <h6 style={{color:'white'}} className='text-content'>{t('Stayconnected')} :</h6>
           <ul>
             {themeOption?.footer?.facebook && (
               <li>
-                <Link href={themeOption?.footer?.facebook} target='_blank'>
-                  <RiFacebookFill />
+                <Link href={themeOption?.footer?.facebook} target='_blank' >
+                  <RiFacebookFill style={{color:'white'}}/>
                 </Link>
               </li>
             )}
             {themeOption?.footer?.twitter && (
               <li>
-                <Link href={themeOption?.footer?.twitter} target='_blank'>
-                  <RiTwitterFill />
+                <Link href={themeOption?.footer?.twitter} target='_blank' >
+                  <RiTwitterFill style={{color:'white'}}/>
                 </Link>
               </li>
             )}
             {themeOption?.footer?.instagram && (
               <li>
-                <Link href={themeOption?.footer?.instagram} target='_blank'>
-                  <RiInstagramLine />
+                <Link href={themeOption?.footer?.instagram} target='_blank' >
+                  <RiInstagramLine style={{color:'white'}}/>
                 </Link>
               </li>
             )}
             {themeOption?.footer?.pinterest && (
               <li>
-                <Link href={themeOption?.footer?.pinterest} target='_blank'>
-                  <RiPinterestLine />
+                <Link href={themeOption?.footer?.pinterest} target='_blank' >
+                  <RiPinterestLine style={{color:'white'}}/>
                 </Link>
               </li>
             )}

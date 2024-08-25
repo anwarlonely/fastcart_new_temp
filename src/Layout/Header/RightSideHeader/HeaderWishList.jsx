@@ -8,7 +8,7 @@ const HeaderWishList = ({ wishListIcon }) => {
   return (
     <li className='right-side'>
       <Link href={`/${i18Lang}/wishlist`} className='btn p-0 position-relative header-wishlist'>
-        {wishListIcon ? wishListIcon : <RiHeartLine />}
+        {wishListIcon ? wishListIcon : <RiHeartLine style={{color:'white'}}/>}
       </Link>
     </li>
   );

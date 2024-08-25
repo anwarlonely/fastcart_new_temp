@@ -45,14 +45,14 @@ const HeaderProfile = () => {
               <h3>{accountData?.name?.charAt(0)?.toString()?.toUpperCase()}</h3>
             </div>
           ) : (
-            <RiUserLine />
+            <RiUserLine style={{color:'white'}}/>
           )}
         </div>
         <div className='delivery-detail'>
-          <h6>
+          <h6 style={{color:'white'}}>
             {t('Hi')}, {accountData?.name ?? t('User')}
           </h6>
-          <h5>{t('MyAccount')}</h5>
+          <h5 style={{color:'white'}}>{t('MyAccount')}</h5>
         </div>
       </div>
 

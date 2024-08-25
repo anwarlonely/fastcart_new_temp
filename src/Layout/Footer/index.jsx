@@ -23,7 +23,7 @@ const MainFooter = () => {
     }
   }, [pathname, i18Lang]);
   return (
-    <footer className={`section-t-space ${footerColor == 'dark_mode' ? 'footer-section-2 footer-color-2' : themeOption?.footer?.footer_style == 'dark_mode' ? 'footer-section-2 footer-color-2' : ''}`}>
+    <footer className={`section-t-space mt-3 ${footerColor == 'dark_mode' ? 'footer-section-2 footer-color-2' : themeOption?.footer?.footer_style == 'dark_mode' ? 'footer-section-2 footer-color-2' : ''}`} style={{backgroundColor:'#7d8035'}}>
       <div className='container-fluid-lg'>
         <div className='main-footer section-b-space'>
           <Row className='g-md-4 g-3'>
