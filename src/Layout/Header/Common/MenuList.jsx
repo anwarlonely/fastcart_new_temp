@@ -13,12 +13,13 @@ const MenuList = ({ menu, customClass, anchorClass, isOpen, setIsOpen, level }) 
     <>
       <li className={`${customClass ? customClass : ''} ${menu?.badge ? 'new-nav-item' : ''} ${menu.children ? 'dropdown-mega' : ''}`}>
         {menu?.path ? (
-          <Link className={`${anchorClass ? anchorClass : 'nav-link dropdown-toggle'}`} href={{ pathname: `/${i18Lang}${menu?.path}`, query: menu?.params }}>
+          <Link className={`${anchorClass ? anchorClass : 'nav-link dropdown-toggle'}`} href={{ pathname: `/${i18Lang}${menu?.path}`, query: menu?.params }} >
             {t(menu?.title)}
           </Link>
         ) : (
           <>
             <a
+            style={{color:'white'}}
               className={`${anchorClass ? anchorClass : 'nav-link dropdown-toggle'}`}
               onClick={() => {
                 const temp = isOpen.slice();

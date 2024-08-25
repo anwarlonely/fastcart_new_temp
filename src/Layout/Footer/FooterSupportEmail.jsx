@@ -13,10 +13,10 @@ const FooterSupportEmail = () => {
       {themeOption?.footer?.support_email && (
         <li>
           <div className='footer-number'>
-            <FiMail />
+            <FiMail  style={{color:'white'}}/>
             <div className='contact-number'>
-              <h6 className='text-content'>{t("EmailAddress")} :</h6>
-              <h5>{themeOption?.footer?.support_email}</h5>
+              <h6  style={{color:'white'}}className='text-content'>{t("EmailAddress")} :</h6>
+              <h5 style={{color:'white'}}>{themeOption?.footer?.support_email}</h5>
             </div>
           </div>
         </li>

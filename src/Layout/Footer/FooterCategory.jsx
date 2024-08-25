@@ -16,7 +16,7 @@ const FooterCategory = ({ footerMenu, setFooterMenu }) => {
   return (
     <Col xl={2} lg={3} md={4} sm={6}>
       <div className={`footer-title ${footerMenu == 'category' ? 'show' : ''}`} onClick={() => setFooterMenu((prev) => (prev !== 'category' ? 'category' : ''))}>
-        <h4>{t('Categories')}</h4>
+        <h4 >{t('Categories')}</h4>
       </div>
 
       <div className='footer-contain'>
@@ -26,7 +26,7 @@ const FooterCategory = ({ footerMenu, setFooterMenu }) => {
               ?.filter((elem) => themeOption?.footer?.footer_categories.includes(elem.id))
               .map((result, i) => (
                 <li key={i}>
-                  <Link href='/' className='text-content'>
+                  <Link href='/' className='text-content' style={{color:'white'}}>
                     {result?.name}
                   </Link>
                 </li>

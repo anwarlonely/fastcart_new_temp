@@ -55,21 +55,21 @@ const FooterLogoContent = () => {
         </div>
 
         <div className='footer-logo-contain'>
-          {themeOption?.footer?.footer_about && <p>{themeOption?.footer?.footer_about}</p>}
+          {themeOption?.footer?.footer_about && <p style={{color:'white'}}>{themeOption?.footer?.footer_about}</p>}
 
-          <ul className='address'>
+          <ul className='address' >
             {themeOption?.footer?.about_address && (
-              <li>
-                <RiHomeLine />
-                <Link href='https://www.google.com/maps' target='_blank'>
+              <li >
+                <RiHomeLine style={{color:'white'}}/>
+                <Link href='https://www.google.com/maps' target='_blank' style={{color:'white'}}>
                   {themeOption?.footer?.about_address}
                 </Link>
               </li>
             )}
             {themeOption?.footer?.about_email && (
               <li>
-                <RiMailLine />
-                <Link href={`mailto:${themeOption?.footer?.about_email}`} target='_blank'>
+                <RiMailLine style={{color:'white'}}/>
+                <Link href={`mailto:${themeOption?.footer?.about_email}`} target='_blank' style={{color:'white'}}>
                   {themeOption?.footer?.about_email}
                 </Link>
               </li>
