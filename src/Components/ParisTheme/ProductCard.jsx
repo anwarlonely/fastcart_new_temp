@@ -45,7 +45,7 @@ const ProductCard = ({ dataAPI }) => {
       {dataAPI?.main_content?.section5_coupons?.status && (
         <SingleBanner
           classes={{ sectionClass: 'section-t-space sale-banner' }}
-          image_url={"https://img.freepik.com/premium-photo/raw-eye-round-steak-with-spices-herbs-black-stone-concrete-background-trendy-hard-light-dark-shadow-flat-lay-banner-format_164638-19493.jpg"}
+          image_url={"https://www.fnp.com/assets/images/custom/cakes_23/Eggless-Cakes_Microsite_web.jpg"}
           height={138}
           width={1137}
           dataAPI={dataAPI?.main_content?.section5_coupons}

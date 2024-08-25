@@ -1,4 +1,5 @@
 {
   "/[lng]/(mainLayout)/theme/paris/page": "app/[lng]/(mainLayout)/theme/paris/page.js",
-  "/[lng]/(mainLayout)/[...not-found]/page": "app/[lng]/(mainLayout)/[...not-found]/page.js"
+  "/[lng]/(mainLayout)/collections/page": "app/[lng]/(mainLayout)/collections/page.js",
+  "/[lng]/(mainLayout)/auth/login/page": "app/[lng]/(mainLayout)/auth/login/page.js"
 }
